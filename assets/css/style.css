@@ -36,11 +36,15 @@ label {
 form {
     margin-top: 3.9rem;
 }
-
+input {
+    padding: 2rem;
+}
 input[type=email], input[type=password], button{
     height: 5rem;
     width: 100%;
-    border: none;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    font-size: 1.6rem;
 }
 .recuperation {
     padding: 2.6rem 0;
