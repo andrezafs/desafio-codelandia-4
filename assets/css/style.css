@@ -11,18 +11,40 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15rem;
+    height: 100vh;
     flex-wrap: wrap;
 }
 .container-form h3 {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.6rem;
     color: var(--black);
-    font-weight: 400;
+    font-weight: 700;
 }
 .container-form h2 {
     font-family: 'Merriweather', sans-serif;
     font-size: 2.6rem;
     color: var(--black);
-    font-weight: 600;
+    font-weight: 700;
+}
+label {
+    font-family: 'Lato';
+    font-size: 1.6rem;
+    color: var(--black);
+    line-height: 1.9rem;
+    font-weight: 400;
+}
+
+input {
+    padding: 1.6rem;
+    width: 100%;
+}
+
+@media (max-width:900px) {
+   .main-container {
+       align-items: center;
+       justify-content: center;
+   }
+    .container-bg img {
+        display: none;
+    }
 }
