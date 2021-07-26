@@ -33,13 +33,24 @@ label {
     line-height: 1.9rem;
     font-weight: 400;
 }
+form {
+    margin-top: 3.9rem;
+}
 
-input[type=email],input[type=password],button{
+input[type=email], input[type=password], button{
     height: 5rem;
     width: 100%;
     border: none;
 }
-
+.recuperation {
+    padding: 2.6rem 0;
+}
+.login {
+    margin-bottom: 16.2rem 
+}
+button:nth-of-type(1) {
+    margin-bottom: 3.1rem;
+}
 @media (max-width:900px) {
    .main-container {
        align-items: center;
