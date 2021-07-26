@@ -5,4 +5,11 @@
     box-sizing: border-box;
     outline: 0;
     text-decoration: 0;
+    font-size: 62.5%;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15rem;
 }
