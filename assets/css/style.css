@@ -34,15 +34,19 @@ label {
     font-weight: 400;
 }
 
-input {
-    padding: 1.6rem;
+input[type=email],input[type=password],button{
+    height: 5rem;
     width: 100%;
+    border: none;
 }
 
 @media (max-width:900px) {
    .main-container {
        align-items: center;
        justify-content: center;
+   }
+   .container-form {
+       width: 80%;
    }
     .container-bg img {
         display: none;
