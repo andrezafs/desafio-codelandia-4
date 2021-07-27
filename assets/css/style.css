@@ -24,21 +24,20 @@
 .container:first-child {
     background: var(--grey);
 }
-h3 {
+h3, h2 {
     font-family: 'Merriweather', sans-serif;
-    font-size: 1.6rem;
     color: var(--black);
     font-weight: 700;
 }
- h2 {
-    font-family: 'Merriweather', sans-serif;
+h3, label, p, a  {
+    font-size: 1.6rem;
+}
+h2 {
     font-size: 2.6rem;
-    color: var(--black);
-    font-weight: 700;
+   
 }
 label, p, a {
     font-family: 'Lato';
-    font-size: 1.6rem;
     color: var(--black);
     line-height: 1.9rem;
     font-weight: 400;
@@ -59,3 +58,7 @@ input[type=email], input[type=password], button{
     align-items: center;
     justify-content: space-between;
 }
+.recuperation {
+    padding: 2.6rem 0;
+}
+
