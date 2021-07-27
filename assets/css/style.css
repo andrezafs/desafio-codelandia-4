@@ -9,35 +9,43 @@
 }
 .main-container {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     height: 100vh;
     flex-wrap: wrap;
+  
 }
-.container-form h3 {
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.container:first-child {
+    background: var(--grey);
+}
+h3 {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.6rem;
     color: var(--black);
     font-weight: 700;
 }
-.container-form h2 {
+ h2 {
     font-family: 'Merriweather', sans-serif;
     font-size: 2.6rem;
     color: var(--black);
     font-weight: 700;
 }
-label {
+label, p, a {
     font-family: 'Lato';
     font-size: 1.6rem;
     color: var(--black);
     line-height: 1.9rem;
     font-weight: 400;
 }
-form {
+.form {
+    width: 60%;
     margin-top: 3.9rem;
-}
-input {
-    padding: 2rem;
 }
 input[type=email], input[type=password], button{
     height: 5rem;
@@ -46,27 +54,8 @@ input[type=email], input[type=password], button{
     border-radius: 5px;
     font-size: 1.6rem;
 }
-.recuperation {
-    padding: 2.6rem 0;
+.recuperation, .cadastro {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.login {
-    margin-bottom: 16.2rem 
-}
-button:nth-of-type(1) {
-    margin-bottom: 3.1rem;
-}
-@media (max-width:900px) {
-   .main-container {
-       align-items: center;
-       justify-content: center;
-   }
-   .container-form {
-       width: 80%;
-   }
-    .container-bg img {
-        display: none;
-    }
 }
