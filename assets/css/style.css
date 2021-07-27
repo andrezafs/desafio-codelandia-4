@@ -68,11 +68,16 @@ input[type=email], input[type=password], button{
 .recuperation {
     padding: 1.6rem 0;
 }
+.lembrar {
+    display: inline-flex;
+    align-items: center;
+}
 input[type=radio] {
     background: #F7FAFC;
     border: 1px solid #E8E8E8;
     width: 1.5rem;
     height: 1.5rem;
+    margin-right: 1.1rem;
 }
 
 #link {
