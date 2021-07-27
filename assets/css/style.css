@@ -53,6 +53,9 @@ input {
     padding: 2rem;
    margin: 1.1rem 0;
 }
+ input[type=email]:focus, input[type=password]:focus {
+  border-color: var(--green);
+}
 input[type=email], input[type=password], button{
     height: 5rem;
     width: 100%;
@@ -79,7 +82,6 @@ input[type=radio] {
     height: 1.5rem;
     margin-right: 1.1rem;
 }
-
 #link {
     color: #2B6CB0;
 }
