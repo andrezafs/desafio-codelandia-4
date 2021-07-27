@@ -25,9 +25,11 @@
 .container:first-child {
     background: var(--grey);
 }
-
-a:hover {
-    color: cornflowerblue;
+#link {
+    color: #2B6CB0;
+}
+#link:hover {
+    color: var(--green)
 }
 h3, h2 {
     font-family: 'Merriweather', sans-serif;
