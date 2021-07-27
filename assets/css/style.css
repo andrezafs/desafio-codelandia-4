@@ -25,12 +25,7 @@
 .container:first-child {
     background: var(--grey);
 }
-#link {
-    color: #2B6CB0;
-}
-#link:hover {
-    color: var(--green)
-}
+
 h3, h2 {
     font-family: 'Merriweather', sans-serif;
     color: var(--black);
@@ -72,6 +67,19 @@ input[type=email], input[type=password], button{
 }
 .recuperation {
     padding: 1.6rem 0;
+}
+input[type=radio] {
+    background: #F7FAFC;
+    border: 1px solid #E8E8E8;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#link {
+    color: #2B6CB0;
+}
+#link:hover {
+    color: var(--green)
 }
 button {
     cursor: pointer;
