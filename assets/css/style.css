@@ -73,6 +73,11 @@ input[type=email], input[type=password], button{
 button {
     cursor: pointer;
 }
+#green:hover {
+    background: var(--grey);
+    color: var(--green);
+    border-color: var(--green);
+}
 #green {
     color: white;
     background: var(--green);
@@ -84,7 +89,11 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-   
+}
+#google:hover {
+    background: var(--grey);
+    color: var(--black);
+    border-color: var(--black);
 }
 #google img {
     margin-right: 1rem;
