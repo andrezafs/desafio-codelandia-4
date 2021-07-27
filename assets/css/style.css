@@ -6,6 +6,7 @@
     outline: 0;
     text-decoration: 0;
     font-size: 62.5%;
+
 }
 .main-container {
     display: flex;
@@ -24,6 +25,10 @@
 .container:first-child {
     background: var(--grey);
 }
+
+a:hover {
+    color: cornflowerblue;
+}
 h3, h2 {
     font-family: 'Merriweather', sans-serif;
     color: var(--black);
@@ -34,6 +39,7 @@ h3, label, p, a  {
 }
 h2 {
     font-size: 2.6rem;
+    margin-bottom: 3.9rem;
    
 }
 label, p, a {
@@ -43,8 +49,11 @@ label, p, a {
     font-weight: 400;
 }
 .form {
-    width: 60%;
+    width: 50%;
     margin-top: 3.9rem;
+}
+input {
+   margin: 1.1rem 0;
 }
 input[type=email], input[type=password], button{
     height: 5rem;
@@ -53,13 +62,13 @@ input[type=email], input[type=password], button{
     border-radius: 5px;
     font-size: 1.6rem;
 }
-.recuperation, .cadastro {
+.recuperation {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .recuperation {
-    padding: 2.6rem 0;
+    padding: 1.6rem 0;
 }
 button {
     cursor: pointer;
@@ -75,9 +84,13 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16.2rem;
+   
 }
 #google img {
     margin-right: 1rem;
+}
+.cadastro {
+    margin-top: 8rem;
+   text-align: center;
 }
 
