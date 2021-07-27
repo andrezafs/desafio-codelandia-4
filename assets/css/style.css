@@ -61,4 +61,23 @@ input[type=email], input[type=password], button{
 .recuperation {
     padding: 2.6rem 0;
 }
+button {
+    cursor: pointer;
+}
+#green {
+    color: white;
+    background: var(--green);
+    margin-bottom: 1.5rem;
+}
+#google {
+    color: white;
+    background: var(--black);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16.2rem;
+}
+#google img {
+    margin-right: 1rem;
+}
 
