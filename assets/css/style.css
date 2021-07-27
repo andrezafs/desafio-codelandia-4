@@ -53,6 +53,7 @@ label, p, a {
     margin-top: 3.9rem;
 }
 input {
+    padding: 2rem;
    margin: 1.1rem 0;
 }
 input[type=email], input[type=password], button{
