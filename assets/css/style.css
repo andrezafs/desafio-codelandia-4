@@ -56,6 +56,7 @@ input {
  input[type=email]:focus, input[type=password]:focus {
   border-color: var(--green);
 }
+
 input[type=email], input[type=password], button{
     height: 5rem;
     width: 100%;
