@@ -12,7 +12,7 @@
     <main>
         <section class="main-container">
             <section class="container">
-                <img src="assets/img/bg.svg" alt=""> 
+                <img id="bg" src="assets/img/bg.svg" alt=""> 
             </section>
             <section class="container">
                 <div class="form">
@@ -45,6 +45,18 @@
                 </div>
             </section>
         </section>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            const sr = ScrollReveal({
+                origin: 'top',
+                distance: '50px',
+                duration: 2000,
+                reset: true
+            });
+            ScrollReveal().reveal('#bg', { delay: 20 });
+        
+            
+    </script>
         
     </main>
     
